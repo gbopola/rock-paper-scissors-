@@ -31,7 +31,6 @@ body {
 
 .main__score {
   text-align: center;
-  color: #fff;
   background: #fff;
   color: #181e2c;
   border-radius: 10px;
@@ -66,14 +65,4 @@ img {
 
 img:hover {
   transform: scale(1.2);
-}
-
-@media (max-width: 746px) {
-  .main__hands {
-    flex-direction: column;
-  }
-
-  img {
-    margin: 0 0 2rem 0;
-  }
 }
